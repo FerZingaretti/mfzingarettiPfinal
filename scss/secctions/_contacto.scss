@@ -1,0 +1,27 @@
+.formulario{
+    background-color:$ColorPrincipal;
+    padding: 100px 200px;
+}
+.text-center{
+    font-size: larger;
+   
+}
+.imput{
+    display: block;
+    position: relative;
+    left: 25%;
+    height: 40px;
+    width: 50%;
+}
+
+.submit{
+    background-color: rgb(163, 159, 159);
+}
+
+.imput:focus{
+    background-color: rgb(123, 221, 189);
+}
+
+
+
+

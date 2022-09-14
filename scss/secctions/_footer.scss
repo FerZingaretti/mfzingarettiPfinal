@@ -1,0 +1,26 @@
+/* footer */
+.footer {
+    background-color:$ColorPrincipal;
+    border-color: black;
+    padding: 20px;
+    font-style: normal;
+    margin-top: 20px;
+    position: relative;
+    bottom: 230px;
+    text-align: center;
+}
+.footer a{
+   
+    color: aliceblue;
+}
+.footer a:hover{
+    color: rgb(52, 96, 81);
+}
+.footer ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+    font-size: large;
+    justify-content: space-around;
+}

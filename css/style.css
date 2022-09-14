@@ -1,0 +1,267 @@
+@charset "UTF-8";
+/* mobile last */
+/* paleta de colores (ver) */
+.formulario {
+  background-color: #1e9199f5;
+  padding: 100px 200px; }
+
+.text-center {
+  font-size: larger; }
+
+.imput {
+  display: block;
+  position: relative;
+  left: 25%;
+  height: 40px;
+  width: 50%; }
+
+.submit {
+  background-color: #a39f9f; }
+
+.imput:focus {
+  background-color: #7bddbd; }
+
+/* footer */
+.footer {
+  background-color: #1e9199f5;
+  border-color: black;
+  padding: 20px;
+  font-style: normal;
+  margin-top: 20px;
+  position: relative;
+  bottom: 230px;
+  text-align: center; }
+
+.footer a {
+  color: aliceblue; }
+
+.footer a:hover {
+  color: #346051; }
+
+.footer ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  color: aliceblue;
+  font-size: large;
+  justify-content: space-around; }
+
+/* header */
+.header {
+  background-color: #1e9199f5;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+
+/*  */
+.header a:hover {
+  color: #346051; }
+
+.menu {
+  display: inline-block;
+  margin: 5px; }
+
+.bg-light a {
+  font-size: larger; }
+
+/* parrafos index y Nosotros */
+.overflow1 {
+  background-color: aliceblue;
+  border-left: 4px solid lightseagreen;
+  border-top: 4px solid lightseagreen;
+  background-size: cover;
+  color: #080500;
+  width: 750px;
+  height: 610px;
+  overflow: auto;
+  margin: 20px;
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  text-align: center; }
+
+.overflow2 {
+  background-color: aliceblue;
+  border-right: 4px solid lightseagreen;
+  border-top: 4px solid lightseagreen;
+  background-size: cover;
+  color: #080500;
+  width: 750px;
+  height: 610px;
+  overflow: auto;
+  margin: 20px;
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  text-align: center; }
+
+/*interiorismo  */
+.section2 {
+  display: flex;
+  z-index: -1;
+  position: relative;
+  bottom: 150px; }
+
+/* &__img {
+    width: 50%;
+
+} */
+/* mobiliario */
+.section3 {
+  display: flex;
+  z-index: -1;
+  position: relative;
+  bottom: 250px; }
+
+/* 
+&__img {
+    width: 50%;
+} */
+.imagen {
+  width: 100%;
+  position: relative;
+  top: -60px;
+  z-index: -2; }
+
+/* titulo de imagenes de index */
+.title2 {
+  background-color: #1e9199f5;
+  z-index: 500px;
+  color: #474d62;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 80px; }
+
+.alineacion1 {
+  text-align: right;
+  position: relative;
+  top: 450px; }
+
+.alineacion2 {
+  text-align: left;
+  position: relative;
+  top: 350px; }
+
+/* texto Nosotros */
+.textComplete {
+  width: 95%;
+  margin-top: 0px; }
+
+.footerBajo {
+  position: relative;
+  bottom: 0px; }
+
+.changeImg img:hover {
+  filter: grayscale(2); }
+
+/* titulo de imagen central de todas las paginas*/
+.titulo {
+  font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+  font-size: xxx-large;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: #0000004f;
+  padding-left: 20px;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  z-index: 50; }
+
+.section1 img {
+  width: 100%;
+  position: relative;
+  bottom: 50px;
+  z-index: -2; }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  background-color: #1e9199f5;
+  height: 200; }
+
+.nav-link {
+  --bs-nav-link-color: #f8f9fa
+
+    ; }
+
+a {
+  font-size: larger; }
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+  --bs-navbar-active-color: #f8f9fa;
+  font-weight: bold; }
+
+.row {
+  justify-content: space-around; }
+
+.carousel {
+  top: -54px; }
+
+.section2 {
+  display: flex; }
+
+.section2 img {
+  margin-top: 45px;
+  width: 100%; }
+
+.title2 {
+  color: #d8def4;
+  font-size: 60px;
+  text-align: center; }
+
+.section3 {
+  display: flex; }
+
+.section3 img {
+  margin-top: 30px;
+  width: 100%; }
+
+.overflow1 {
+  width: 100%;
+  margin: 10px;
+  margin-top: 50px; }
+
+.overflow2 {
+  width: 100%;
+  margin: 10px;
+  margin-top: 50px; }
+
+.alineacion1 {
+  text-align: center;
+  position: relative;
+  top: 550px; }
+
+.alineacion2 {
+  text-align: center;
+  position: relative;
+  top: 350px; }
+
+.section1 img {
+  margin-bottom: 30px; }
+
+.sectionTendencias {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  color: #206994;
+  font-size: x-large; }
+
+.sectionTendencias li {
+  padding: 10px;
+  font-weight: 100;
+  margin-left: 30px; }
+
+.card-body a {
+  background-color: #1e9199f5; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+@media (max-width: 781px) {
+  .titulo {
+    font-size: larger; }
+  .formulario {
+    padding: 20px; }
+  .imput {
+    width: 400px; } }

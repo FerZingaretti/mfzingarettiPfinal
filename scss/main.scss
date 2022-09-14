@@ -1,0 +1,36 @@
+/* mobile last */
+/* paleta de colores (ver) */
+
+@import './base/variables';
+
+@import './secctions/contacto';
+@import './secctions/footer';
+@import './secctions/header';
+@import './secctions/index';
+@import './secctions/nosotros';
+@import './secctions/productos';
+@import './secctions/general';
+@import './secctions/tendencias';
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+}
+
+@media (max-width: 781px){
+
+    .titulo {
+        font-size: larger;
+    }
+
+    .formulario{
+       
+        padding: 20px;
+    }
+
+    .imput{
+        width:400px;
+    }
+    }

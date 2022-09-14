@@ -1,0 +1,27 @@
+/* header */
+.header {
+    background-color: $ColorPrincipal;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+
+}
+
+/*  */
+.header a:hover {
+    color: #346051;
+}
+.menu {
+    display: inline-block;
+    margin: 5px;
+}
+
+.bg-light{
+    a{
+        font-size: larger;
+      }
+     
+}
+

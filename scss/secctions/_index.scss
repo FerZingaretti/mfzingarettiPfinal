@@ -1,0 +1,88 @@
+
+/* parrafos index y Nosotros */
+
+.overflow1 {
+    background-color: aliceblue;
+    border-left: 4px solid lightseagreen;
+    border-top: 4px solid lightseagreen;
+    background-size: cover;
+    color: rgb(8, 5, 0);
+    width: 750px;
+    height: 610px;
+    overflow: auto;
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+
+}
+
+.overflow2 {
+    background-color: aliceblue;
+    border-right: 4px solid lightseagreen;
+    border-top: 4px solid lightseagreen;
+    background-size: cover;
+    color: rgb(8, 5, 0);
+    width: 750px;
+    height: 610px;
+    overflow: auto;
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+
+}
+
+/*interiorismo  */
+.section2 {
+    display: flex;
+    z-index: -1;
+    position: relative;
+    bottom: 150px;
+}
+
+/* &__img {
+    width: 50%;
+
+} */
+
+/* mobiliario */
+.section3 {
+    display: flex;
+    z-index: -1;
+    position: relative;
+    bottom: 250px;
+}
+/* 
+&__img {
+    width: 50%;
+} */
+
+.imagen {
+    width: 100%;
+    position: relative;
+    top: -60px;
+    z-index: -2;
+}
+
+/* titulo de imagenes de index */
+.title2 {
+
+    background-color:$ColorPrincipal;
+    z-index: 500px;
+    color: rgb(71, 77, 98);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+}
+
+.alineacion1 {
+    text-align: right;
+    position: relative;
+    top: 450px;
+}
+
+.alineacion2 {
+    text-align: left;
+    position: relative;
+    top: 350px;
+}
