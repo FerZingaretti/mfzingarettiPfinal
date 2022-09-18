@@ -60,9 +60,7 @@
     top: -54px;
    }
    
-.main{
-    min-height: 500px;
-}
+
 
 
 
@@ -96,10 +94,11 @@
 
     .overflow1 {
         width: 80%;
-        font-size: medium;
-        margin: 100px;
-        margin-top: 0px;
+        font-size: 20px;
+        margin: 20px;
+        margin-top: 50px;
         height: 650px;
+        text-align: center;
     }
    
 
@@ -124,4 +123,8 @@
         margin-bottom: 30px;
     }
     
+.main{
+    max-height: 100%;
+
+}
     
