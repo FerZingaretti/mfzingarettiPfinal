@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* mobile last */
-/* paleta de colores (ver) */
+/* importacion de Variables */
+/* color utilizado */
+/* importacion de parties de sass */
 .formulario {
   background-color: #1e9199f5;
   padding: 100px 200px; }
@@ -54,7 +56,6 @@
   justify-content: space-between;
   align-items: flex-end; }
 
-/*  */
 .header a:hover {
   color: #346051; }
 
@@ -265,6 +266,7 @@ a {
   padding: 0%;
   box-sizing: border-box; }
 
+/* adaptacion responsive sin boostrap */
 @media (max-width: 781px) {
   .titulo {
     font-size: larger; }

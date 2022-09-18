@@ -1,7 +1,9 @@
 /* mobile last */
-/* paleta de colores (ver) */
 
+/* importacion de Variables */
 @import './base/variables';
+
+/* importacion de parties de sass */
 
 @import './secctions/contacto';
 @import './secctions/footer';
@@ -19,6 +21,7 @@
   
 }
 
+/* adaptacion responsive sin boostrap */
 @media (max-width: 781px){
 
     .titulo {
