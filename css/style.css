@@ -29,9 +29,9 @@
   border-color: black;
   padding: 20px;
   font-style: normal;
-  margin-top: 20px;
-  position: relative;
-  bottom: 0px;
+  /*   margin-top: 20px; */
+  /* position: relative; */
+  /*   bottom: 0px; */
   text-align: center; }
 
 .footer a {
@@ -148,11 +148,6 @@ p.textComplete {
   margin-top: 0px;
   height: 200px; }
 
-/*  
-.footerBajo {
-    position: relative;
-    bottom: 0px;
-} */
 .changeImg img:hover {
   filter: grayscale(2); }
 
@@ -274,9 +269,6 @@ a {
   .formulario {
     padding: 30px 0px;
     width: 100%; }
-  /*   .imput{
-        width: 90%;
-    } */
   .section2 {
     flex-direction: column; }
   .section3 {
@@ -296,4 +288,9 @@ a {
     text-align: center;
     top: 800px; }
   .overflow2 {
-    width: 80%; } }
+    width: 80%; }
+  /* .footer {
+   
+    margin-top: 319px;
+  
+} */ }
