@@ -30,13 +30,13 @@
 
     .formulario{
        
-        padding: 30px 0px
-        ;
+        padding: 30px 0px;
+        width: 100%;
     }
 
-    .imput{
-        width:400px;
-    }
+  /*   .imput{
+        width: 90%;
+    } */
 
     .section2{
         flex-direction: column;
@@ -65,5 +65,28 @@
             top: 785px;
         }
     
+}
+p.textComplete {
+    
+     
+    margin: 20px;
+    
+    
+}
+.alineacion1 {
+    text-align: center;
+   
+    top: 297px;
+}
+.alineacion2 {
+    text-align: center;
+      top: 800px;
+}
+
+.overflow2 {
+    
+    width: 80%;
+ 
+
 }
 }

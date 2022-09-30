@@ -31,7 +31,7 @@
   font-style: normal;
   margin-top: 20px;
   position: relative;
-  bottom: 230px;
+  bottom: 0px;
   text-align: center; }
 
 .footer a {
@@ -138,6 +138,9 @@ div.container-fluid img {
   position: relative;
   top: 350px; }
 
+.main {
+  max-height: 396vh; }
+
 /* texto Nosotros */
 p.textComplete {
   width: 85%;
@@ -145,10 +148,11 @@ p.textComplete {
   margin-top: 0px;
   height: 200px; }
 
+/*  
 .footerBajo {
-  position: relative;
-  bottom: 0px; }
-
+    position: relative;
+    bottom: 0px;
+} */
 .changeImg img:hover {
   filter: grayscale(2); }
 
@@ -268,9 +272,11 @@ a {
   .titulo {
     font-size: larger; }
   .formulario {
-    padding: 30px 0px; }
-  .imput {
-    width: 400px; }
+    padding: 30px 0px;
+    width: 100%; }
+  /*   .imput{
+        width: 90%;
+    } */
   .section2 {
     flex-direction: column; }
   .section3 {
@@ -280,4 +286,14 @@ a {
   h2 .alineacion1 {
     top: 265px; }
   h2 .alineacion2 {
-    top: 785px; } }
+    top: 785px; }
+  p.textComplete {
+    margin: 20px; }
+  .alineacion1 {
+    text-align: center;
+    top: 297px; }
+  .alineacion2 {
+    text-align: center;
+    top: 800px; }
+  .overflow2 {
+    width: 80%; } }
