@@ -29,7 +29,7 @@
   border-color: black;
   padding: 20px;
   font-style: normal;
-  /*   margin-top: 20px; */
+  margin-top: 80px;
   /* position: relative; */
   /*   bottom: 0px; */
   text-align: center; }
@@ -136,10 +136,7 @@ div.container-fluid img {
 .alineacion2 {
   text-align: left;
   position: relative;
-  top: 350px; }
-
-.main {
-  max-height: 396vh; }
+  top: 290px; }
 
 /* texto Nosotros */
 p.textComplete {
@@ -242,6 +239,9 @@ a {
 .section1 img {
   margin-bottom: 30px; }
 
+.main {
+  min-height: 100%; }
+
 .sectionTendencias {
   display: inline-block;
   text-decoration: none;
@@ -288,9 +288,4 @@ a {
     text-align: center;
     top: 800px; }
   .overflow2 {
-    width: 80%; }
-  /* .footer {
-   
-    margin-top: 319px;
-  
-} */ }
+    width: 80%; } }
