@@ -68,6 +68,7 @@ p.textComplete {
     
      
     margin: 20px;
+    margin-left: 40px;
     
     
 }
@@ -84,10 +85,19 @@ p.textComplete {
 .overflow2 {
     
     width: 80%;
- 
-
-    
+    margin-left: 50px;
+     
 }
 
+.main{
+    max-height: 520vw;
+    }
 
+    .overflow1 {
+        
+        height: 510px;
+        margin-left: 50px;
+   
+
+}
 }
