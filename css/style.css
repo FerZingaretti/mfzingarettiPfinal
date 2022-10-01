@@ -5,7 +5,8 @@
 /* importacion de parties de sass */
 .formulario {
   background-color: #1e9199f5;
-  padding: 100px 200px; }
+  padding: 100px 200px;
+  margin-bottom: 0%; }
 
 .text-center {
   font-size: larger; }
@@ -243,7 +244,7 @@ a {
   margin-bottom: 30px; }
 
 .main {
-  max-height: 200vw; }
+  max-height: 172vw; }
 
 .sectionTendencias {
   display: inline-block;
