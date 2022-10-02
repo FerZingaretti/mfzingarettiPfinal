@@ -5,14 +5,13 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    
-
 }
 
 
 .header a:hover {
     color: #346051;
 }
+
 .menu {
     display: inline-block;
     margin: 5px;
@@ -22,8 +21,8 @@
     a{
         font-size: larger;
       }
-     
 }
+
 div.container-fluid{
     img{
         width: 300px;
